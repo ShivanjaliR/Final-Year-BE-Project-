@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item 
+        android:title="Search" 
+        android:id="@+id/search" 
+        android:visible="true" 
+        android:checked="true" 
+        android:enabled="true" 
+        android:icon="@drawable/ic_menu_search">
+    </item>
+    
+   
+    <item 
+        android:title="Home" 
+        android:id="@+id/home" 
+        android:visible="true" 
+        android:checked="true" 
+        android:enabled="true" 
+        android:icon="@drawable/ic_menu_home">
+     </item>
+     <item 
+        android:title="Logout" 
+        android:visible="true" 
+        android:checked="true" 
+        android:enabled="true" 
+        android:icon="@drawable/ic_lock_power_off" android:id="@+id/logout_ven">
+    </item>
+    
+    
+</menu>
+   

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="@drawable/back78">
+   
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78"
+    android:stretchColumns="1">
+      <ImageButton android:layout_width="wrap_content" android:id="@+id/imageButton1" android:src="@drawable/productinfo" android:layout_height="wrap_content" android:maxWidth="30dip" android:maxHeight="30dip"></ImageButton>
+   
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_prod_id" 
+             android:layout_height="wrap_content" 
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090" android:id="@+id/text_prod_id">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="ABC" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_prod_id"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_prod_name" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_prod_name"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="200" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_prod_name"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_prod_quantity" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_prod_quantity"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="Vendor" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_prod_quantity"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_prod_price" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_prod_price"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="3000" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_prod_price"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      
+           
+      <View android:layout_height="2dip"
+            android:background="#FF909090" />
+            
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_descrip" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_descrip"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="pune" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_descrip"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_manufacturer" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_manufacturer"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="Female" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_manufacturer"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_shippingcost" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_shippingcost"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="21 march 1986" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_shippingcost"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      
+      <View android:layout_height="2dip"
+            android:background="#FF909090" />
+      
+           
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_shippingtime" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_shippingtime"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="7876240622" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_shippingtime"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_vendor_acc" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_vendor_acc"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="abc@gmail.com" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_vendor_acc"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+     
+      
+       <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_discount" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_discount"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="Bank of India" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_discount"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+     
+       <TableRow >
+      
+     
+      <Button 
+      		android:layout_height="wrap_content" 
+      		android:layout_width="fill_parent"
+      		android:id="@+id/update" 
+      		android:textStyle="bold" 
+      		android:onClick="update" 
+      		android:text="Update" >
+      </Button>
+      
+      <Button 
+      		android:layout_height="wrap_content" 
+      		android:layout_width="wrap_content" 
+      		android:id="@+id/delete" 
+      		android:textStyle="bold" 
+      		android:onClick="delete" 
+      		android:text="Delete" >
+      </Button>
+      
+             </TableRow>
+</TableLayout>
+ 
+</ScrollView>      

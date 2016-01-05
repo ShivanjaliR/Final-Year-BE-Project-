@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+       android:title="Add" 
+       android:id="@+id/add"
+       android:checkable="true" 
+       android:visible="true" 
+       android:checked="true" 
+       android:enabled="true" 
+       android:icon="@drawable/ic_menu_add" android:text="add">
+    </item>
+   <!--  <item 
+        android:title="Update" 
+        android:id="@+id/update" 
+        android:visible="true" 
+        android:checked="true" 
+        android:enabled="true" 
+        android:icon="@drawable/ic_menu_edit">
+    </item> -->
+    <item 
+        android:title="Delete" 
+        android:id="@+id/delete" 
+        android:visible="true" 
+        android:checked="true" 
+        android:enabled="true" 
+        android:icon="@drawable/ic_menu_delete">
+    </item>
+    
+    <item 
+        android:title="Search" 
+        android:id="@+id/search" 
+        android:visible="true" 
+        android:checked="true" 
+        android:enabled="true" 
+        android:icon="@drawable/ic_menu_search">
+    </item>
+</menu>

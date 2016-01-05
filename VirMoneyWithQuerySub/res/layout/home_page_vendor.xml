@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="@drawable/back78">
+
+   	
+	
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78"
+    android:stretchColumns="1">
+<ImageButton android:layout_height="100dp" android:onClick="dispProdList" android:src="@drawable/product" android:clickable="true" android:id="@+id/img_home_cust_disp_prd" android:layout_width="wrap_content" android:layout_alignTop="@+id/img_home_cust_disp_profile" android:layout_alignParentRight="true" android:layout_marginRight="32dp"></ImageButton>
+<TextView android:text="@string/text_account" android:onClick="dispProfile" android:layout_height="wrap_content" android:id="@+id/text_profile" android:textStyle="bold" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/text_product_list" android:layout_alignBottom="@+id/text_product_list" android:layout_alignLeft="@+id/img_home_cust_disp_profile"></TextView>
+<ImageButton android:layout_height="100dp" android:onClick="dispTrans" android:src="@drawable/vendor2" android:clickable="true" android:id="@+id/img_home_cust_disp_vendor" android:layout_width="wrap_content" android:layout_below="@+id/text_profile" android:layout_alignLeft="@+id/text_profile" android:layout_marginTop="217dp"></ImageButton>
+<ImageButton android:layout_height="100dp" android:onClick="shareMoney" android:src="@drawable/money2" android:clickable="true" android:id="@+id/img_home_cust_share_money" android:layout_width="wrap_content" android:layout_below="@+id/text_profile" android:layout_alignLeft="@+id/text_profile" android:layout_marginTop="39dp"></ImageButton>
+<ImageButton android:focusable="true" android:id="@+id/img_home_cust_disp_profile" android:onClick="dispProfile" android:src="@drawable/account1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="100dp" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="30dp" android:layout_marginTop="58dp"></ImageButton>
+<TextView android:id="@+id/text_transaction_details" android:layout_width="wrap_content" android:text="@string/text_transaction_detail" android:textStyle="bold" android:onClick="dispTrans" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/text_logout" android:layout_alignBottom="@+id/text_logout" android:layout_alignLeft="@+id/img_home_cust_disp_vendor"></TextView>
+<TextView android:id="@+id/text_share_money" android:layout_width="wrap_content" android:text="@string/text_share_money" android:textStyle="bold" android:onClick="shareMoney" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/text_cust_details" android:layout_alignBottom="@+id/text_cust_details" android:layout_alignLeft="@+id/img_home_cust_disp_vendor"></TextView>
+<TextView android:id="@+id/text_cust_details" android:layout_width="wrap_content" android:text="@string/text_cust_list" android:textStyle="bold" android:onClick="dispCustList" android:layout_height="wrap_content" android:layout_below="@+id/img_home_vendor_disp_vendor" android:layout_alignLeft="@+id/logout" android:layout_marginTop="27dp"></TextView>
+<ImageButton android:id="@+id/logout" android:onClick="signOut" android:src="@drawable/logout2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="100dp" android:layout_alignTop="@+id/img_home_cust_disp_vendor" android:layout_alignRight="@+id/img_home_vendor_disp_vendor"></ImageButton>
+<ImageButton android:id="@+id/img_home_vendor_disp_vendor" android:onClick="dispCustList" android:src="@drawable/customer" android:clickable="true" android:layout_width="wrap_content" android:layout_height="100dp" android:layout_alignTop="@+id/img_home_cust_share_money" android:layout_alignRight="@+id/img_home_cust_disp_prd"></ImageButton>
+<TextView android:id="@+id/text_product_list" android:layout_width="wrap_content" android:text="@string/text_product_list" android:textStyle="bold" android:onClick="dispProdList" android:layout_height="wrap_content" android:layout_below="@+id/img_home_cust_disp_prd" android:layout_alignLeft="@+id/text_cust_details" android:layout_marginTop="24dp"></TextView>
+<TextView android:id="@+id/text_logout" android:layout_width="wrap_content" android:text="@string/text_logout" android:textStyle="bold" android:onClick="dispTrans" android:layout_height="wrap_content" android:layout_below="@+id/logout" android:layout_alignRight="@+id/text_product_list" android:layout_marginTop="29dp"></TextView>
+	 
+</RelativeLayout>
+</ScrollView>      
+

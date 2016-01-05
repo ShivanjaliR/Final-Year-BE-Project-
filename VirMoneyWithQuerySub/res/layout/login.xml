@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+	<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/usrnameedit" android:textSize="16sp" android:textStyle="bold" android:inputType="text" android:layout_above="@+id/passwordlable" android:layout_alignLeft="@+id/usrnamelable" android:layout_marginBottom="30dp"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/passwordedit" android:textSize="16sp" android:textStyle="bold" android:inputType="textPassword" android:layout_above="@+id/loginbutton" android:layout_marginBottom="46dp" android:layout_alignLeft="@+id/passwordlable"></EditText>
+    <TextView 
+    android:textSize="16sp" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:textStyle="bold" 
+    android:text="@string/text_password" 
+    android:id="@+id/passwordlable" 
+    android:layout_centerVertical="true" 
+    android:layout_alignLeft="@+id/usrnameedit">
+    </TextView>
+   <Spinner android:layout_height="wrap_content" 
+   			android:layout_width="wrap_content" 
+   			android:id="@+id/vmuser" 
+   			android:layout_above="@+id/usrnamelable" 
+   			android:layout_centerHorizontal="true" 
+   			android:layout_marginBottom="20dp" 
+   			android:entries="@array/vmuser">
+   	</Spinner>
+   <TextView android:textSize="16sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="LoginAs" android:id="@+id/loginas" android:layout_alignBaseline="@+id/vmuser" android:layout_alignBottom="@+id/vmuser" android:layout_toLeftOf="@+id/vmuser" android:layout_marginRight="23dp"></TextView>
+   <TextView android:textSize="16sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:text="@string/text_username" android:id="@+id/usrnamelable" android:layout_above="@+id/usrnameedit" android:layout_alignLeft="@+id/loginas" android:layout_marginBottom="24dp"></TextView>
+   <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/cancel" android:textStyle="bold" android:onClick="cancel" android:text="Cancel" android:layout_below="@+id/passwordedit" android:layout_toRightOf="@+id/vmuser"></Button>
+   <Button android:layout_height="wrap_content" 
+   			android:layout_width="wrap_content" 
+   			android:id="@+id/loginbutton" 
+   			android:textSize="16sp" 
+   			android:textStyle="bold" 
+   			android:text="@string/text_login" 
+   			android:layout_alignParentBottom="true" 
+   			android:layout_alignRight="@+id/passwordlable" 
+   			android:layout_marginBottom="62dp" 
+   			android:onClick="check" 
+   			android:tag="@string/text_login"></Button>
+   <TextView android:text="SignUp" android:onClick="reg" android:textStyle="bold" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:clickable="true" android:id="@+id/textView1" android:layout_above="@+id/loginas" android:layout_alignParentRight="true" android:layout_marginRight="22dp"></TextView>
+   
+</RelativeLayout>

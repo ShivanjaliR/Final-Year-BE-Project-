@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="@drawable/back78">
+
+   	
+	
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78"
+    android:stretchColumns="1">
+<TextView 
+        android:layout_width="wrap_content" 
+        android:textStyle="bold" 
+        android:layout_height="wrap_content" 
+        android:text="@string/text_logs" 
+        android:onClick="SendQuery" 
+        android:id="@+id/text_product_list" 
+        android:layout_below="@+id/img_home_admin_disp_prd" 
+        android:layout_alignLeft="@+id/img_home_admin_disp_prd" 
+        android:layout_marginLeft="15dp" 
+        android:layout_marginTop="23dp">
+</TextView>
+<TextView 
+        android:layout_width="wrap_content" 
+        android:textStyle="bold" 
+        android:layout_height="wrap_content" 
+        android:text="@string/text_logout" 
+        android:onClick="dispTrans" 
+        android:id="@+id/text_logout" 
+        android:layout_alignBaseline="@+id/text_share_money" 
+        android:layout_alignBottom="@+id/text_share_money" 
+        android:layout_alignRight="@+id/text_product_list">
+</TextView>
+<ImageButton 
+        android:focusable="true" 
+        android:src="@drawable/view_log" 
+        android:layout_width="wrap_content" 
+        android:onClick="viewlogs" 
+        android:layout_height="100dp" 
+        android:id="@+id/img_home_admin_disp_prd" 
+        android:clickable="true" 
+        android:layout_alignTop="@+id/img_home_cust_disp_profile" 
+        android:layout_alignParentRight="true" 
+        android:layout_marginRight="17dp">
+</ImageButton>
+<TextView 
+        android:layout_width="wrap_content" 
+        android:textStyle="bold" 
+        android:layout_height="wrap_content" 
+        android:text="@string/text_account" 
+        android:onClick="SendQuery" 
+        android:id="@+id/text_profile" 
+        android:layout_alignBaseline="@+id/text_product_list"
+        android:layout_alignBottom="@+id/text_product_list" 
+        android:layout_alignLeft="@+id/text_share_money">
+</TextView>
+<TextView 
+        android:layout_width="wrap_content" 
+        android:textStyle="bold" 
+        android:layout_height="wrap_content" 
+        android:text="@string/text_member_list" 
+        android:id="@+id/text_share_money" 
+        android:layout_below="@+id/img_home_vendor_disp_vendor" 
+        android:layout_alignRight="@+id/img_home_vendor_disp_vendor" 
+        android:layout_marginTop="30dp">
+</TextView>
+<ImageButton android:src="@drawable/logout2" android:id="@+id/logout" android:layout_width="wrap_content" android:layout_height="100dp" android:onClick="signOut" android:clickable="true" android:layout_above="@+id/text_share_money" android:layout_alignRight="@+id/img_home_admin_disp_prd"></ImageButton>
+<ImageButton android:focusable="true" android:src="@drawable/account1" android:id="@+id/img_home_cust_disp_profile" android:layout_width="wrap_content" android:layout_height="100dp" android:onClick="dispProfile" android:clickable="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="26dp" android:layout_marginTop="26dp"></ImageButton>
+<ImageButton android:src="@drawable/customer" android:id="@+id/img_home_vendor_disp_vendor" android:layout_width="wrap_content" android:layout_height="100dp" android:onClick="dispMemberList" android:clickable="true" android:layout_below="@+id/text_profile" android:layout_alignLeft="@+id/img_home_cust_disp_profile" android:layout_marginTop="22dp"></ImageButton>
+	 
+</RelativeLayout>
+</ScrollView>      
+
+

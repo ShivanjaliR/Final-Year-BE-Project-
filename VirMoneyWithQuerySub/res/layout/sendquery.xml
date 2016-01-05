@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+	<EditText 
+	    android:textSize="16sp" 
+	    android:layout_width="fill_parent" 
+	    android:inputType="text" 
+	    android:id="@+id/edit_sendQuerySub" 
+	    android:textStyle="bold" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/sendQuerySub" 
+	    android:layout_marginTop="28dp" 
+	    android:layout_alignParentLeft="true">
+	</EditText>
+	<EditText 
+	    android:textSize="16sp" 
+	    android:layout_width="fill_parent" 
+	    android:inputType="textMultiLine" 
+	    android:id="@+id/queryedit" 
+	    android:textStyle="bold" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/query" 
+	    android:layout_marginTop="28dp" android:layout_alignParentLeft="true">
+	</EditText>
+	 <Button 
+	     android:layout_width="wrap_content" 
+	     android:text="@string/text_cancel" 
+	     android:layout_height="wrap_content" 
+	     android:id="@+id/cancel" 
+	     android:layout_alignBottom="@+id/send_query" 
+	     android:layout_alignParentRight="true" 
+	     android:layout_marginRight="66dp" android:onClick="cancel">
+	  </Button>
+	 <Button android:layout_width="wrap_content" 
+	 	android:text="@string/send_query" 
+	 	android:layout_height="wrap_content" 
+	 	android:id="@+id/send_query"
+	 	 android:layout_below="@+id/queryedit" 
+	 	 android:layout_alignLeft="@+id/query" 
+	 	 android:layout_marginTop="57dp"
+	 	 android:onClick="SendQuery"></Button>
+	 <TextView android:layout_height="wrap_content" android:id="@+id/sendQuerySub" android:text="@string/text_querySubject" android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignLeft="@+id/query" android:layout_marginTop="30dp"></TextView>
+	 <TextView android:layout_height="wrap_content" android:id="@+id/query" android:text="@string/text_query" android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_below="@+id/edit_sendQuerySub" android:layout_alignParentLeft="true" android:layout_marginLeft="23dp" android:layout_marginTop="16dp"></TextView>
+</RelativeLayout>

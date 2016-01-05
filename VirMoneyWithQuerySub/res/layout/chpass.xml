@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+	
+	    
+    <TextView 
+    	android:text="@string/text_current_pass" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/current_pass" 
+    	android:layout_alignParentTop="true"  
+    	android:layout_marginLeft="16dp" 
+    	android:layout_marginTop="31dp">
+    </TextView>
+    
+    <TextView 
+    	android:text="@string/text_new_pass"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/text_new_pass" 
+    	android:layout_alignParentTop="true" 
+    	android:layout_alignLeft="@+id/curr_pass_edit" 
+    	android:layout_marginLeft="16dp" 
+    	android:layout_marginTop="150dp">
+    </TextView>
+    <EditText android:textStyle="bold" android:id="@+id/new_pass_edit" android:textSize="16sp" android:layout_width="fill_parent" android:inputType="textPassword" android:layout_height="wrap_content" android:layout_below="@+id/text_new_pass" android:layout_alignParentLeft="true" android:layout_marginTop="15dp">
+        
+    </EditText>
+    <EditText android:textStyle="bold" android:id="@+id/curr_pass_edit" android:textSize="16sp" android:layout_width="fill_parent" android:inputType="textPassword" android:layout_height="wrap_content" android:layout_below="@+id/current_pass" android:layout_alignParentLeft="true" android:layout_marginTop="19dp">
+    <requestFocus></requestFocus>
+    </EditText>
+    <Button android:id="@+id/submit" android:onClick="check" android:layout_width="wrap_content" android:text="@string/text_submit" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignLeft="@+id/text_re_enter_pass" android:layout_marginBottom="20dp"></Button>
+    <Button android:id="@+id/button2" android:onClick="cancel" android:layout_width="wrap_content" android:text="@string/text_cancel" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/submit" android:layout_alignBottom="@+id/submit" android:layout_alignParentRight="true" android:layout_marginRight="30dp"></Button>
+    <EditText android:id="@+id/con_pass_edit" android:layout_width="fill_parent" android:inputType="textPassword" android:layout_height="wrap_content" android:layout_above="@+id/submit" android:layout_alignParentLeft="true" android:layout_marginBottom="26dp"></EditText>
+    <TextView android:id="@+id/text_re_enter_pass" android:layout_width="wrap_content" android:text="@string/text_re_enter_pass" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/new_pass_edit" android:layout_alignLeft="@+id/text_new_pass" android:layout_marginTop="26dp"></TextView>
+    
+    
+    
+    
+</RelativeLayout>

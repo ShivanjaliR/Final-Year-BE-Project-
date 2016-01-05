@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.psl.virtual"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="7" />
+    
+     <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+    	android:name=".VMApp"
+        android:label="@string/app_name" android:icon="@drawable/vm1">
+        <activity
+            android:name="com.psl.virtual.ui.VMSplashScreen"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:icon="@drawable/vm1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMProductList"
+            android:label="@string/text_product_list"
+            android:icon="@drawable/vm1">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            
+            
+            </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMVendorTransaction"
+            android:label="@string/text_transaction_detail">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMTransDetailsCustomer"
+            android:label="@string/text_transaction_detail">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+</activity>
+        
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMVendorHome"
+            android:label="@string/text_vendor">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMRegistrationScreen"
+            android:label="@string/text_registration">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+       <activity
+            android:name="com.psl.virtual.ui.VMLoginScreen"
+            android:label="@string/text_login"
+            android:icon="@drawable/vm1">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMStartupScreen"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+       <activity
+            android:name="com.psl.virtual.ui.VMCustomerHome"
+            android:label="@string/text_customer">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.psl.virtual.ui.VMAdminHome"
+            android:label="@string/text_admin">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+       
+       <activity
+            android:name="com.psl.virtual.ui.VMTabScreen"
+            android:label="@string/text_vendor">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+           
+       <activity
+            android:name="com.psl.virtual.ui.VMMyAccount"
+            android:label="@string/text_account">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+         
+        <activity
+            android:name="com.psl.virtual.ui.VMUpdateProfile"
+            android:label="@string/text_update_profile">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMAddProductScreen"
+            android:label="@string/text_add_pro">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+               <activity
+            android:name="com.psl.virtual.ui.VMUpdateProductScreen"
+            android:label="@string/text_update_product">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMProduct_Info"
+            android:label="@string/text_product_info">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMProduct_Info_Customer"
+            android:label="@string/text_product_info">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMBill_input"
+            android:label="@string/text_bill">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMBill"
+            android:label="@string/text_bill">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+       <activity
+            android:name="com.psl.virtual.ui.VMChangePass"
+            android:label="@string/text_ch_password">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name="com.psl.virtual.ui.VMSendQuery"
+            android:label="@string/send_query">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMDisplayQueryList"
+            android:label="@string/send_query">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+      
+      	 <activity
+            android:name="com.psl.virtual.ui.VMQueryResponseList"
+            android:label="@string/text_query">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name="com.psl.virtual.ui.VMResponseOfQuery"
+            android:label="@string/text_reply">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+      
+      <activity
+            android:name="com.psl.virtual.ui.VMReplyToQuery"
+            android:label="@string/text_reply_to_query">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+      
+      
+       <activity
+            android:name="com.psl.virtual.ui.VMShareMoney"
+            android:label="@string/text_share_money">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+       <activity
+            android:name="com.psl.virtual.ui.VMTabActivity"
+            android:label="@string/text_customer">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.psl.virtual.ui.VMHelp"
+            android:label="@string/text_help">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        
+       
+       <activity
+            android:name="com.psl.virtual.ui.VMCart"
+            android:label="@string/text_cart">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+
+       <activity
+            android:name="com.psl.virtual.ui.VMLogs"
+            android:label="@string/text_logs">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            
+            <meta-data 
+                   android:name="android.app.searchable" android:resource="@xml/searchable"/>
+              
+        </activity>
+        
+       <activity
+            android:name="com.psl.virtual.ui.VMTabAdmin"
+            android:label="@string/text_admin">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name="com.psl.virtual.ui.VMAccQuery"
+            android:label="@string/text_acc_query">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.psl.virtual.ui.VMMyAccountAdmin"
+            android:label="@string/text_account">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+      
+       <activity
+            android:name="com.psl.virtual.ui.VMMember"
+            android:label="@string/text_member_list">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            
+                <meta-data 
+                   android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            
+        </activity>
+       
+       
+       
+       <activity
+            android:name="com.psl.virtual.ui.VMProductList"
+            android:label="@string/text_product_list">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter> 
+                <meta-data 
+                   android:name="android.app.searchable" android:resource="@xml/searchable"/>
+             
+        </activity>
+        
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMCustomerList"
+            android:label="@string/text_cust_list">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+       
+                <meta-data 
+                   android:name="android.app.searchable" android:resource="@xml/searchable"/>
+       
+            </activity>
+      
+      
+        <activity
+            android:name="com.psl.virtual.ui.VMVendorList"
+            android:label="@string/text_vendor_list">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data 
+                   android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+       
+        <activity
+            android:name=".ui.VMCustProductList"
+            android:label="@string/text_product_list">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+             <meta-data 
+                   android:name="android.app.searchable" android:resource="@xml/searchable"/>
+             
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMVendorInfo"
+            android:label="@string/text_vendor">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+             
+        </activity>
+        
+                <activity
+            android:name="com.psl.virtual.ui.VMRechargeAccount"
+            android:label="@string/text_recharge_acc">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name="com.psl.virtual.ui.VMLiquify"
+            android:label="@string/text_liquify">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.psl.virtual.ui.VMEmpty"
+            android:label="Empty List">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+       
+ </application>
+
+</manifest>

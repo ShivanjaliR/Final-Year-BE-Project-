@@ -1,0 +1,5 @@
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\ResolveAssemblyReference.cache
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\virtualMoneyWebService.dll
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\virtualMoneyWebService.pdb

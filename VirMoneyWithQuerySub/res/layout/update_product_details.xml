@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   	android:layout_height="fill_parent" 
+   	android:background="@drawable/back78">
+   	
+   	<RelativeLayout
+	android:layout_width="fill_parent" android:layout_height="1104dp">
+   	
+   	<TextView
+		android:id="@+id/text_update_productid" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_alignParentTop="true" 
+		android:layout_alignParentLeft="true"		 
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dip"
+		android:text="Product Id"
+		android:textStyle="bold"></TextView>
+	<EditText 
+		android:id="@+id/edit_update_productid"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:inputType="text" 
+        android:textSize="16sp" 
+        android:layout_alignParentLeft="true" 
+		android:layout_alignParentRight="true"		
+		android:layout_below="@+id/text_update_productid"
+		android:layout_marginTop="10dp" android:enabled="false"></EditText>
+	
+	<TextView 
+		android:id="@+id/text_update_prdname" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/edit_update_productid"  
+		android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dip"        
+        android:text="Name"
+        android:textStyle="bold">
+		</TextView>
+		
+	<EditText 
+		android:id="@+id/edit_update_prdname"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:inputType="text" 
+        android:textSize="16sp"   
+		android:layout_alignParentLeft="true" 
+		android:layout_alignParentRight="true"		
+		android:layout_below="@+id/text_update_prdname"
+		android:layout_marginTop="10dp"></EditText>
+	
+	<TextView 
+		android:id="@+id/text_update_quantity"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"		
+		android:textStyle="bold" 
+		android:text="Quantity"
+		android:layout_below="@+id/edit_update_prdname"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dip"></TextView>
+		
+	<EditText 
+		android:id="@+id/edit_update_quantity"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:inputType="number" 
+        android:textSize="16sp"  
+		android:layout_alignParentRight="true" 
+		android:layout_alignParentLeft="true"		
+		android:layout_marginTop="10dp"
+		android:layout_below="@+id/text_update_quantity"></EditText>
+	
+	<TextView 
+		android:id="@+id/text_update_price" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_quantity" 
+		android:layout_alignParentLeft="true"		
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"
+		android:textStyle="bold"
+		android:text="Price"></TextView>
+	
+	<EditText
+		android:id="@+id/edit_update_price" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:inputType="number"
+		android:textSize="16sp" 
+		android:layout_below="@+id/text_update_price" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		lignParentBottom="true"
+		android:layout_marginTop="10dp"
+		></EditText>
+		
+	<TextView 
+		android:id="@+id/text_update_category"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_price" 
+		android:layout_alignParentLeft="true"		
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"
+		android:textStyle="bold" 
+		android:text="Category"></TextView>
+	<EditText
+		android:id="@+id/edit_update_category" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:inputType="text"
+		android:textSize="16sp"  
+		android:layout_below="@+id/text_update_category" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp"
+		></EditText>
+		
+	<TextView 
+		android:id="@+id/text_update_notes" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_category" 
+		android:layout_alignParentLeft="true" 
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"
+		android:textStyle="bold"		
+		android:text="Product Description"></TextView>
+
+	<EditText 
+		android:layout_below="@+id/text_update_notes"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:inputType="textMultiLine"
+		android:textSize="16sp"		 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true" 
+		android:id="@+id/edit_update_notes"
+		android:layout_marginTop="10dp">
+		<requestFocus></requestFocus>
+	</EditText>
+	
+	<TextView 
+		android:id="@+id/text_update_manufact" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_notes" 
+		android:layout_alignParentLeft="true"
+		android:textStyle="bold"  
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"		
+		android:text="Manufacturer"></TextView>
+	
+	<EditText 
+		android:id="@+id/edit_update_manufact"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:inputType="text"
+		android:textSize="16sp" 
+		android:layout_below="@+id/text_update_manufact"		
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp"></EditText>
+	
+	<TextView 
+		android:id="@+id/text_update_shippingcost"
+		android:textStyle="bold" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:text="Shipping Cost"		 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_manufact" 
+		android:layout_alignLeft="@+id/text_update_manufact"
+		android:layout_marginTop="10dp"></TextView>
+
+	<EditText
+		android:id="@+id/edit_update_shippingcost" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:inputType="text"
+		android:textSize="16sp"  
+		android:layout_below="@+id/text_update_shippingcost" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp" 
+		></EditText>
+	
+	
+	<TextView 
+		android:id="@+id/text_update_shippingtime"
+		android:textStyle="bold" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:text="Shipping Time"		 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_shippingcost" 
+		android:layout_alignLeft="@+id/text_update_shippingcost"
+		android:layout_marginTop="10dp"></TextView>
+
+	<EditText
+		android:id="@+id/edit_update_shippingtime" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:inputType="text"
+		android:textSize="16sp"  
+		android:layout_below="@+id/text_update_shippingtime" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp" 
+		></EditText>
+	
+	<TextView
+		android:id="@+id/text_update_vendoraccno" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_shippingtime" 
+		android:layout_alignLeft="@+id/text_updatep_shippingtime"
+		android:layout_marginTop="10dp" 		 
+		android:text="Vendor's Account No."
+		android:textStyle="bold"></TextView>
+	
+	<EditText
+		android:id="@+id/edit_update_vandoraccno" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:inputType="text"
+		android:textSize="16sp"  
+		android:layout_below="@+id/text_update_vendoraccno" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp" 
+		></EditText>
+	
+	<TextView 
+		android:id="@+id/text_update_discount" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:text="Discount"		
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/edit_update_vandoraccno" 
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"
+		android:textStyle="bold"></TextView>
+	
+	<EditText
+		android:id="@+id/edit_update_discount" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_below="@+id/text_update_discount" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="10dp" 
+		></EditText>
+	<Button 
+		android:layout_width="wrap_content" 
+		android:id="@+id/button_cancel" 
+		android:onClick="cancel" 
+		android:layout_height="wrap_content" 
+		android:text="Cancel" 
+		android:layout_below="@+id/edit_update_discount" 
+		android:layout_alignParentRight="true" 
+		android:layout_marginRight="33dp" 
+		android:layout_marginTop="45dp"></Button>
+	<Button 
+		android:layout_width="wrap_content" 
+		android:id="@+id/button_updateproduct" 
+		android:onClick="check" 
+		android:layout_height="wrap_content" 
+		android:text="Update Product" 
+		android:layout_alignBaseline="@+id/button_cancel" 
+		android:layout_alignBottom="@+id/button_cancel" 
+		android:layout_alignLeft="@+id/text_update_discount"></Button>
+			  
+	</RelativeLayout>
+</ScrollView>

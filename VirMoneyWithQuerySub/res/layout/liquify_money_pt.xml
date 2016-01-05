@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   	android:layout_height="fill_parent" 
+   	android:background="@drawable/back78">
+   	
+<RelativeLayout
+	android:layout_width="fill_parent" 
+	android:layout_height="1104dp">
+	<TextView 
+	    android:id="@+id/text_liq_user" 
+	    android:text="@string/text_vm_account" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_alignParentTop="true" 
+	    android:layout_marginTop="41dp"
+	    android:layout_marginLeft="16dp">
+	</TextView>
+	<EditText 
+	    android:layout_width="wrap_content" 
+	    android:id="@+id/edit_liq_user" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/text_liq_user" 
+	    android:layout_alignParentLeft="true" 
+	    android:layout_marginLeft="16dp" 
+	    android:layout_marginTop="14dp" 
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="16dp" android:enabled="false">
+	</EditText>
+	<TextView 
+	     android:id="@+id/text_liq_bal" 
+	     android:text="@string/text_balance" 
+	     android:layout_width="wrap_content" 
+	     android:textAppearance="?android:attr/textAppearanceMedium"
+	     android:layout_height="wrap_content" 
+	     android:layout_below="@+id/edit_liq_user" 
+	     android:layout_marginTop="16dp"
+	     android:layout_alignLeft="@+id/text_liq_user">
+	 </TextView>
+	<EditText 
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/edit_liq_bal" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_liq_bal" 
+	      android:layout_alignLeft="@+id/edit_liq_user" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/edit_liq_user" android:enabled="false">
+	</EditText>
+	<TextView 
+	      android:id="@+id/text_liq_bankname" 
+	      android:text="@string/text_bankname" 
+	      android:layout_width="wrap_content" 
+	      android:textAppearance="?android:attr/textAppearanceMedium" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/edit_liq_bal" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignLeft="@+id/text_liq_user">
+	</TextView>
+	<EditText 
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/edit_liq_bankname" 
+	      android:inputType="text" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_liq_bankname" 
+	      android:layout_alignLeft="@+id/edit_liq_user" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/edit_liq_user" android:editable="false" android:enabled="false">
+	</EditText>
+	<TextView 
+	      android:id="@+id/text_liq_bankacc" 
+	      android:text="@string/text_account_number" 
+	      android:layout_width="wrap_content" 
+	      android:textAppearance="?android:attr/textAppearanceMedium" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/edit_liq_bankname" 
+	      android:layout_alignLeft="@+id/text_liq_user" 
+	      android:layout_marginTop="16dp"
+	      >
+	</TextView>
+	
+	<EditText
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/edit_liq_bankacc" 
+	      android:inputType="text" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_liq_bankacc" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/edit_liq_user" 
+	      android:layout_alignLeft="@+id/edit_liq_user" android:enabled="false">
+	 </EditText>
+	 
+	 <TextView 
+	      android:id="@+id/text_liq_moneypt" 
+	      android:text="@string/text_money_pts" 
+	      android:layout_width="wrap_content" 
+	      android:textAppearance="?android:attr/textAppearanceMedium" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/edit_liq_bankacc" 
+	      android:layout_alignLeft="@+id/text_liq_user" 
+	      android:layout_marginTop="16dp"></TextView>
+	<EditText
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/edit_liq_moneypt" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_liq_moneypt" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/edit_liq_user" 
+	      android:layout_alignLeft="@+id/edit_liq_user" android:inputType="numberDecimal">
+	</EditText>
+	      
+	<Button android:layout_height="wrap_content"
+		  android:layout_width="wrap_content"
+		  android:id="@+id/liquify" 
+		  android:text="Liquify" 
+		  android:layout_below="@+id/edit_liq_moneypt"
+		  android:onClick="liquify"
+		  android:layout_marginLeft="25dp"
+		  android:layout_marginTop="23dp">
+	</Button>
+	<Button android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:onClick="cancel" 
+			android:text="Cancel"
+			android:id="@+id/cancel" 
+			android:layout_alignBaseline="@+id/liquify" 
+			android:layout_alignBottom="@+id/liquify" 
+			android:layout_toRightOf="@+id/text_liq_bankacc" 
+			android:layout_marginLeft="36dp"></Button>
+	
+</RelativeLayout>
+</ScrollView>

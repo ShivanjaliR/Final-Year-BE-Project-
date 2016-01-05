@@ -1,0 +1,35 @@
+C:\Documents and Settings\sujata\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sujata\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+C:\Documents and Settings\sujata\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+C:\Documents and Settings\sujata\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+C:\Documents and Settings\sujata\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\virtualMoneyWebService\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-7thMarch)\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-7thMarch)\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-7thMarch)\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-7thMarch)\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-7thMarch)\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-13thMarch)\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-13thMarch)\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-13thMarch)\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-13thMarch)\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-13thMarch)\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+C:\Documents and Settings\Su-ajita\My Documents\Visual Studio 2010\Demo2Jan\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb
+D:\BE Project\14 Jun\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.dll
+D:\BE Project\14 Jun\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\bin\virtualMoneyWebService.pdb
+D:\BE Project\14 Jun\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\BE Project\14 Jun\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.dll
+D:\BE Project\14 Jun\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Debug\virtualMoneyWebService.pdb

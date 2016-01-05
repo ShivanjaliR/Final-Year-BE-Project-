@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+   
+    <RelativeLayout 
+    android:layout_width="fill_parent" android:layout_height="1104dp">
+        
+
+   
+    
+    <TextView
+    	android:id="@+id/usrnamelable"
+        android:layout_height="wrap_content" 
+        android:textSize="16sp"          
+        android:textStyle="bold" 
+        android:layout_width="wrap_content" 
+        android:text="@string/text_username" 
+        android:layout_below="@+id/radioGroup2" 
+        android:layout_alignLeft="@+id/banklable" 
+        android:layout_marginTop="50dp">
+     </TextView>
+     <EditText
+     	android:id="@+id/usrnameedit" 
+        android:layout_height="wrap_content" 
+        android:inputType="text" 
+        android:textSize="16sp"
+        android:layout_width="fill_parent"
+        android:textStyle="bold" 
+        android:layout_below="@+id/usrnamelable" 
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dip"
+        android:layout_alignLeft="@+id/addresslable"/>
+   	
+    <TextView
+        android:id="@+id/addresslable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usrnameedit"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/text_address"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+         
+
+    <EditText
+        android:id="@+id/addressedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addresslable"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:inputType="textMultiLine"
+        android:textSize="16sp"
+        android:textStyle="bold">
+     </EditText>   
+
+    <TextView
+        android:id="@+id/genderlable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressedit"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/text_gender"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/updategender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genderlable"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/malegender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/text_male" />
+
+        <RadioButton
+            android:id="@+id/femalegender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/text_female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/doblable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updategender"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/text_dob"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <DatePicker
+        android:id="@+id/birthdatepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/doblable"
+        android:layout_below="@+id/doblable" 
+        android:layout_marginTop="10dip"/>
+
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:textSize="16sp" 
+        android:id="@+id/mobilelable" 
+        android:textStyle="bold" 
+        android:layout_width="wrap_content" 
+        android:text="@string/text_mobile" 
+        android:layout_below="@+id/birthdatepicker" 
+        android:layout_alignLeft="@+id/birthdatepicker">
+    </TextView>
+    
+    <EditText
+        android:id="@+id/mobileedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobilelable"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:textSize="16sp" 
+        android:id="@+id/emaillable"
+        android:textStyle="bold" 
+        android:layout_width="wrap_content"
+        android:text="@string/text_emailid"
+        android:layout_below="@+id/mobileedit" 
+        android:layout_alignLeft="@+id/mobilelable">
+     </TextView>
+    
+    <EditText
+        android:id="@+id/emailedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emaillable"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    
+    <EditText
+        android:id="@+id/bankedit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banklable"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <EditText
+    	android:id="@+id/accountedit" 
+        android:layout_height="wrap_content" 
+        android:inputType="text" 
+        android:textSize="16sp"         
+        android:layout_width="fill_parent"
+        android:textStyle="bold"
+        android:layout_below="@+id/accountlable" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip">
+    </EditText>
+    <TextView 
+    	android:id="@+id/textAccNo"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceSmall"         
+        android:layout_below="@+id/accountedit" 
+        android:layout_alignLeft="@+id/accountlable" 
+        android:layout_marginTop="20dp" 
+        android:text="Account No for Virual Money" 
+        android:textStyle="bold">
+    </TextView>
+    <EditText
+    	android:id="@+id/editAccNo" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:layout_below="@+id/textAccNo" 
+        android:layout_alignLeft="@+id/textAccNo" 
+        android:layout_marginTop="20dp" 
+        android:layout_alignRight="@+id/accountedit" 
+        android:enabled="false">
+     </EditText>
+    <Button android:layout_width="wrap_content" android:id="@+id/button2" android:onClick="cancel" android:layout_height="wrap_content" android:text="Cancel" android:layout_alignBaseline="@+id/button1" android:layout_alignBottom="@+id/button1" android:layout_toRightOf="@+id/updategender"></Button>
+    <Button 
+    	 android:layout_width="wrap_content"
+    	 android:id="@+id/button1"
+    	 android:onClick="updateprofile"
+	     android:layout_height="wrap_content" android:text="Update" android:layout_below="@+id/editAccNo" android:layout_toRightOf="@+id/mobilelable" android:layout_marginTop="36dp"></Button>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:layout_height="wrap_content" android:text="@string/text_bankname" android:id="@+id/banklable" android:layout_width="wrap_content" android:layout_below="@+id/emailedit" android:layout_alignRight="@+id/doblable" android:layout_marginTop="16dp"></TextView>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:layout_height="wrap_content" android:text="@string/text_account_number" android:id="@+id/accountlable" android:layout_width="wrap_content" android:layout_below="@+id/bankedit" android:layout_alignLeft="@+id/banklable" android:layout_marginTop="19dp"></TextView>
+    
+   	</RelativeLayout>
+    </ScrollView>

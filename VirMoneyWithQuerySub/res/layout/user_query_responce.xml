@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+   
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78"
+	>
+	<TextView 
+	    android:id="@+id/text_userQueryResQuerySub" 
+	    android:text="@string/text_querySubject" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textStyle="bold" 
+	    android:layout_alignParentTop="true" 
+	    android:layout_marginTop="41dp"
+	    android:layout_marginLeft="16dp">
+	</TextView>
+	<TextView android:textStyle="bold" 
+			  android:id="@+id/text_userQueryResQuerySub_ans"
+			  android:layout_height="wrap_content" 
+			  android:text="@string/text_querySubject" 
+			  android:layout_width="fill_parent" 
+			  android:layout_below="@+id/text_userQueryResQuerySub" 
+			  android:layout_alignLeft="@+id/text_userQueryResQuery"			  
+			  android:layout_marginTop="15dp"
+			  android:layout_marginLeft="20dp"
+			  >
+			  </TextView>
+	<TextView android:textStyle="bold" 
+			  android:id="@+id/text_userQueryResQuery_ans"
+			  android:layout_height="wrap_content" 
+			  android:text="@string/text_query" 
+			  android:layout_width="fill_parent" 
+			  android:layout_below="@+id/text_userQueryResQuery" 
+			  android:layout_alignLeft="@+id/text_userQueryResQuery"			  
+			  android:layout_marginTop="15dp"
+			  android:layout_marginLeft="20dp"
+			  >
+			  </TextView>
+	<TextView android:textStyle="bold" 
+			  android:id="@+id/text_userQueryResAnsDate_ans"
+			  android:layout_height="wrap_content" 
+			  android:text="@string/text_date_of_reply" 
+			  android:layout_width="fill_parent" 
+			  android:layout_below="@+id/text_userQueryResAnsDate" 
+			  android:layout_alignLeft="@+id/text_userQueryResQuery"			  
+			  android:layout_marginTop="15dp"
+			  android:layout_marginLeft="20dp">
+			  </TextView>
+	<TextView android:textStyle="bold" 
+			  android:id="@+id/text_userQueryResResponse_ans"
+			  android:layout_height="wrap_content" 
+			  android:text="@string/text_reply" 
+			  android:layout_width="fill_parent" 
+			  android:layout_below="@+id/text_userQueryResResponse" 
+			  android:layout_alignLeft="@+id/text_userQueryResQuery"			  
+			  android:layout_marginTop="15dp"
+			  android:layout_marginLeft="20dp"
+			  >
+			  </TextView>
+   <TextView android:textStyle="bold" android:id="@+id/text_userQueryResQuery" android:layout_width="wrap_content" android:text="@string/text_query" android:layout_height="wrap_content" android:layout_below="@+id/text_userQueryResQuerySub_ans" android:layout_alignLeft="@+id/text_userQueryResQuerySub" android:layout_marginTop="14dp"></TextView>
+   <TextView android:textStyle="bold" android:layout_width="wrap_content" android:id="@+id/text_userQueryResAnsDate" android:layout_height="wrap_content" android:text="@string/text_date_of_reply" android:layout_below="@+id/text_userQueryResQuery_ans" android:layout_alignLeft="@+id/text_userQueryResQuery" android:layout_marginTop="33dp"></TextView>
+   <TextView android:textStyle="bold" android:layout_width="wrap_content" android:id="@+id/text_userQueryResResponse" android:isScrollContainer="false" android:layout_height="wrap_content" android:text="@string/text_reply" android:layout_below="@+id/text_userQueryResAnsDate_ans" android:layout_alignRight="@+id/text_userQueryResQuery" android:layout_marginTop="32dp"></TextView>
+   <Button android:layout_width="wrap_content" android:textStyle="bold" android:onClick="cancel" android:text="Cancel" android:id="@+id/responce_cancel" android:layout_height="wrap_content" android:textSize="16sp" android:layout_below="@+id/text_userQueryResResponse_ans" android:layout_alignParentRight="true" android:layout_marginRight="62dp" android:layout_marginTop="76dp"></Button>
+   <Button android:layout_width="wrap_content" android:textStyle="bold" android:onClick="check" android:text="@string/text_ok" android:id="@+id/response_OK" android:layout_height="wrap_content" android:textSize="16sp" android:layout_alignBaseline="@+id/responce_cancel" android:layout_alignBottom="@+id/responce_cancel" android:layout_alignLeft="@+id/text_userQueryResResponse_ans" android:layout_alignRight="@+id/text_userQueryResAnsDate"></Button>
+</RelativeLayout>
+</ScrollView>

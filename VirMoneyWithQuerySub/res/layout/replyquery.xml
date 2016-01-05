@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+	 <TextView android:layout_width="wrap_content" 
+			 	android:textAppearance="?android:attr/textAppearanceMedium" 
+			 	android:layout_height="wrap_content" 
+			 	android:text="@string/text_vm_account" 
+			 	android:layout_alignParentTop="true" 
+			 	android:layout_alignParentLeft="true" 
+			 	android:layout_marginLeft="22dp" 
+			 	android:layout_marginTop="56dp" 
+			 	android:id="@+id/text_acc_no"></TextView>
+	<TextView android:layout_width="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceMedium" 
+				android:layout_height="wrap_content" 
+				android:text="TextView" 
+				android:layout_above="@+id/text_query" 
+				android:layout_alignRight="@+id/cancel" 
+				android:layout_marginRight="22dp" 
+				android:id="@+id/text_dis_acc_no"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+				android:layout_width="wrap_content" 
+				android:text="@string/text_query" 
+				android:id="@+id/text_query" 
+				android:layout_height="wrap_content" 
+				android:layout_below="@+id/text_acc_no" 
+				android:layout_alignLeft="@+id/text_acc_no" 
+				android:layout_marginTop="76dp"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+	 			android:layout_width="wrap_content" 
+	 			android:text="@string/text_querySubject" 
+	 			android:id="@+id/text_ReplyquerySub" 
+	 			android:layout_height="wrap_content" 
+	 			android:layout_below="@+id/text_acc_no" 
+	 			android:layout_alignLeft="@+id/text_acc_no" 
+	 			android:layout_marginTop="27dp"></TextView>
+	 <EditText android:inputType="textMultiLine" 
+	 			android:id="@+id/replyedit" 
+	 			android:layout_width="fill_parent" 
+	 			android:textSize="16sp" 
+	 			android:textStyle="bold" 
+	 			android:layout_height="wrap_content" 
+	 			android:layout_below="@+id/reply" 
+	 			android:layout_alignParentLeft="true" 
+	 			android:layout_marginTop="20dp"></EditText>
+	 
+	 <TextView android:textSize="16sp" 
+	 			android:layout_width="wrap_content" 
+	 			android:id="@+id/reply" 
+	 			android:textStyle="bold" 
+	 			android:layout_height="wrap_content"
+	 			android:text="@string/text_reply" 
+	 			android:layout_below="@+id/text_query" 
+	 			android:layout_alignLeft="@+id/text_query" 
+	 			android:layout_marginTop="46dp"></TextView>
+	 
+	 
+	 
+	 
+	 <Button 
+	     android:layout_width="wrap_content" 
+	     android:text="@string/text_cancel" 
+	     android:layout_height="wrap_content" 
+	     android:id="@+id/cancel" 
+	     android:layout_alignBottom="@+id/reply_query" 
+	     android:layout_alignParentRight="true" 
+	     android:layout_marginRight="66dp" android:onClick="cancel">
+	  </Button>
+	 <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/text_dis_querySub" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/text_ReplyquerySub" android:layout_alignBottom="@+id/text_ReplyquerySub" android:layout_centerHorizontal="true"></TextView>
+	 <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="TextView" android:id="@+id/text_dis_query" android:layout_height="wrap_content" android:layout_above="@+id/reply" android:layout_alignLeft="@+id/text_dis_querySub"></TextView>
+	 <Button android:onClick="replyquery" android:layout_height="wrap_content" android:id="@+id/reply_query" android:layout_width="wrap_content" android:text="@string/text_reply" android:layout_alignParentBottom="true" android:layout_alignLeft="@+id/reply" android:layout_marginBottom="39dp"></Button>
+</RelativeLayout>

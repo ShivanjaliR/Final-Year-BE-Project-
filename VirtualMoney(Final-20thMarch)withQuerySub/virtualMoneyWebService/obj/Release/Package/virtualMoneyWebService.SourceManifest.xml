@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <dbFullSql path="D:\BE Project\VM 28 March\VirtualMoney(Final-20thMarch)withQuerySub\virtualMoneyWebService\obj\Release\AutoScripts\MyDB-Deployment_SchemaAndData.sql" Transacted="True" />
+</sitemanifest>

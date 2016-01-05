@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VMSplashScreen!</string>
+    <string name="app_name">VirtualMoney</string>
+    <string name="text_registration">Registration</string>
+    <string name="text_login">Login</string>
+    <string name="text_splash">Virtual Money</string>
+    <string name="text_username">User Name</string>
+    <string name="text_password">Password</string>
+    <string name="text_register">Register</string>
+    <string name="text_address">Address</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_male">Male</string>
+    <string name="text_female">Female</string>
+    <string name="text_dob">Date of Birth</string>
+    <string name="text_mobile">Mobile</string>
+    <string name="text_emailid">email ID</string>
+	<string name="text_bankname">Bank Name</string>
+	<string name="text_account_number">Bank Account No.</string>
+	<string-array name="vmuser">
+		<item>Customer</item>
+		<item>Vendor</item>
+		<item>Admin</item>
+	</string-array>
+	<string name="text_current_pass">Current Password</string>
+	<string name="text_new_pass">New Password</string>
+	<string name="text_ch_pass">Submit</string>
+	<string name="text_cancel">Cancel</string>
+	<string name="text_query">Query</string>
+	<string name="send_query">Send Query</string>
+	<string name="text_receiver_accno">To Whom?</string>
+	<string name="text_money_pts">Money Points</string>
+	<string name="text_share">Share </string><string name="text_submit">Submit</string>
+	
+	<string name="text_customer">Customer</string>
+	<string name="text_vendor">Vendor</string>
+	<string name="text_admin">Administrator</string>
+	<string name="text_account">My Account</string>
+	<string name="text_product_list">Product List</string>
+	<string name="text_vendor_list">Vendor List</string>
+	<string name="text_member_list">Member List</string>
+	<string name="text_logs">View Logs</string>
+	<string name="text_share_money">Share Money</string>
+	<string name="text_cust_list">Customer List</string>
+	<string name="text_add_pro">Add Product</string>
+	<string name="text_acc_query">View Query</string>
+	<string name="text_help">Help</string>
+	<string name="text_cart">Cart List</string>
+	<string name="text_ch_password">Change Password</string>
+	<string name="app_label">app_label</string>
+	<string name="search_hint">search_hint</string>
+	<string name="text_vm_account">User Account No</string>
+	<string name="text_user">User</string>
+	<string name="text_balance">Current Balance</string>
+	<string name="text_reply">Reply</string>
+	<string name="text_reply_to_query">Reply To Query</string>
+	<string name="text_product_info">Product Info</string>
+	<string name="text_productid">Product ID</string>
+	<string name="text_name">Your Account No</string>
+	<string name="text_quantity">Quantity</string>
+	<string name="text_price">Price</string>
+	<string name="text_total">Total</string>
+	<string name="text_buy">Buy</string>
+	<string name="text_bill">Product Bill</string>
+	<string name="text_prod_id">Product ID</string>
+	<string name="edit_prod_id"></string>
+	<string name="text_prod_name">Product Name</string>
+	<string name="edit_prod_name"></string>
+	<string name="text_prod_quantity">Quantity</string>
+	<string name="edit_prod_quantity"></string>
+	<string name="text_prod_price">Price</string>
+	<string name="edit_prod_price"></string><string name="text_descrip">Product Description</string>
+	<string name="edit_descrip"></string>
+	<string name="text_manufacturer">Manufacturer</string>
+	<string name="edit_manufacturer"></string>
+	<string name="text_shippingcost">Shipping Cost</string>
+	<string name="edit_shippingcost"></string>
+	<string name="text_shippingtime">Shipping Time</string>
+	<string name="edit_shippingtime"></string>
+	<string name="text_vendor_acc">Vendor Account No.</string>
+	<string name="edit_vendor_acc"></string>
+	<string name="text_discount">Discount</string>
+	<string name="edit_discount"></string>
+	<string name="label">Label</string>
+	<string name="main_no_items">No Product is available</string>
+	<string name="text_bill_vendor_acc">Vendor Account No</string>
+	<string name="text_ok">OK</string>
+	<string name="text_avail_qty">Available Quantity</string>
+	<string name="text_saving">Today, You have saved</string>
+	<string name="text_disp_profile">Display My Profile Details</string>
+	<string name="text_disp_ven_list">Display Vendor List</string>
+	<string name="text_transaction_detail">Transaction Details</string>
+	<string name="text_re_enter_pass">Confirm Password</string>
+	<string name="text_logout">Logout</string>
+	<string name="text_update_profile">Update Profile</string>
+	<string name="text_update_product">Update Product</string>	
+	<string name="text_date_of_reply">Date of Reply</string>
+	<string name="text_querySubject">Subject :</string>
+	<string name="text_cust_bal">Your VMAccount Balance</string>
+	<string name="text_recharge_acc">Recharge Account</string>
+	<string name="text_liquify">Liquify</string>
+	<string name="text_empty">No Entries Available in List</string>
+</resources>

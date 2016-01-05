@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+      <ImageView
+        android:id="@+id/icon"
+        android:layout_width="22px"
+        android:layout_height="22px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="30px"
+        android:src="@drawable/vm1" >
+     </ImageView>
+    
+
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label"
+        android:textSize="20px"
+        android:layout_marginLeft="40dip"> 
+    </TextView>
+    
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/pname" 
+    	android:layout_width="wrap_content" 
+    	android:text="@string/label" 
+    	android:textSize="20px" 
+    	android:layout_below="@+id/pid" 
+    	android:layout_alignLeft="@+id/pid">
+    </TextView>    	
+    
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/pprice" 
+    	android:layout_width="wrap_content" 
+    	android:text="@string/label" 
+    	android:textSize="20px" 
+    	android:layout_below="@+id/pname" 
+    	android:layout_alignLeft="@+id/pname">
+    </TextView>
+
+</RelativeLayout>

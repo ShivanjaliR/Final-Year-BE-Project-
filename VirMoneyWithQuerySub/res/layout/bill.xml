@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78">
+   
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back78"
+    android:stretchColumns="1">
+    <TableRow ><TextView/></TableRow>
+    <TableRow ><TextView/></TableRow>
+    <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_productid" 
+             android:layout_height="wrap_content" 
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090"
+             android:id="@+id/text_bill_prod_id">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="ABC" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_prod_id"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_prod_name" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_prod_name"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="200" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_prod_name"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_bill_vendor_acc" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_vendor"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="Vendor" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_vendor"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow ><TextView/></TableRow>
+      
+      <View android:layout_height="2dip"
+            android:background="#FF909090" />
+            
+      <TableRow ><TextView/></TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_price" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_price"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="199" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_price"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_quantity" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_quantity"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="3" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_quantity"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_shippingcost" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_shippingcost"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="2"
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_shippingcost"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_shippingtime" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_shippingtime"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="2 Days" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_shippingtime"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_total" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_bill_total"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="2"
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_bill_total"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow ><TextView/></TableRow>
+      
+      <View android:layout_height="2dip"
+            android:background="#FF909090" />
+      
+      <TableRow ><TextView/></TableRow>
+      
+      <TableRow>
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="@string/text_saving" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/text_vendor_acc"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="left"
+             android:textColor="#FF909090">
+      </TextView> 
+      <TextView 
+             android:layout_width="wrap_content" 
+             android:text="2 Rupees" 
+             android:layout_height="wrap_content" 
+             android:id="@+id/edit_saving"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:gravity="right"
+             android:padding="3dip">
+      </TextView> 
+      </TableRow>
+      
+      <TableRow ><TextView/></TableRow>
+      <TableRow ><TextView/></TableRow>
+      
+      <TableRow >
+      <TextView></TextView>
+      <Button
+      	 android:onClick="return_to_home_page" 
+      	 android:textStyle="bold"
+      	  android:text="@string/text_ok"
+      	  android:layout_height="wrap_content" 
+      	  android:layout_width="wrap_content" 
+      	  android:id="@+id/bill_ok">
+      </Button>
+       <TextView></TextView>
+      </TableRow>
+?</TableLayout>
+ 
+</ScrollView>      

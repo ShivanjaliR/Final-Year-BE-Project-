@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Bank Transaction" android:id="@+id/bank_trans">
+    <menu>
+        <item android:id="@+id/recharge" android:title="Recharge Account"></item>
+        <item android:id="@+id/liquify" android:title="Liquify Money Points"></item>
+    </menu>
+</item>
+	
+<item android:title="Change Password" android:id="@+id/chg_pass" />
+<item android:title="Query" android:id="@+id/query">
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Send Query" android:id="@+id/send_query" />
+        <item android:title="Show Query Response" android:id="@+id/acc_query" />
+    </menu>
+</item>>
+
+<item android:title="Update Profile" android:id="@+id/up_profile" />
+<item android:title="Delete Account" android:id="@+id/delete_acc"/>
+<item android:title="Logout" android:id="@+id/logout" />
+
+</menu>

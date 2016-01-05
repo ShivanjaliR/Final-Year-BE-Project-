@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   	android:layout_height="fill_parent" 
+   	android:background="@drawable/back78">
+   	
+<RelativeLayout
+	android:layout_width="fill_parent" 
+	android:layout_height="1104dp">
+	<TextView 
+	    android:id="@+id/text_billproductid" 
+	    android:text="@string/text_productid" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textStyle="bold" 
+	    android:layout_alignParentTop="true" 
+	    android:layout_marginTop="41dp"
+	    android:layout_marginLeft="16dp">
+	</TextView>
+	<EditText 
+	    android:layout_width="wrap_content" 
+	    android:id="@+id/editTextipBillPrdId" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/text_billproductid" 
+	    android:layout_alignParentLeft="true" 
+	    android:layout_marginLeft="16dp" 
+	    android:layout_marginTop="14dp" 
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="16dp" android:enabled="false">
+	</EditText>
+	<TextView 
+	     android:id="@+id/bill_cust_acc" 
+	     android:text="@string/text_name" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:layout_below="@+id/editTextipBillPrdId" 
+	     android:layout_marginTop="16dp"
+	     android:textStyle="bold" 
+	     android:layout_alignLeft="@+id/editTextipBillPrdId">
+	 </TextView>
+	<EditText 
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/editTextipBillCustAcc" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/bill_cust_acc" 
+	      android:layout_alignLeft="@+id/editTextipBillPrdId" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/editTextipBillPrdId">
+	</EditText>
+	<TextView 
+	      android:id="@+id/text_billprice" 
+	      android:text="@string/text_bill_vendor_acc" 
+	      android:layout_width="wrap_content" 
+	      android:textAppearance="?android:attr/textAppearanceMedium" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/editTextipBillCustAcc" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignLeft="@+id/editTextipBillCustAcc">
+	</TextView>
+	<EditText 
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/editTextipBillVenAcc" 
+	      android:inputType="number" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_billprice" 
+	      android:layout_alignLeft="@+id/editTextipBillCustAcc" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/editTextipBillCustAcc" android:editable="false" android:enabled="false">
+	</EditText>
+	<TextView 
+	      android:id="@+id/text_billAvailQuantity" 
+	      android:text="@string/text_avail_qty" 
+	      android:layout_width="wrap_content" 
+	      android:textAppearance="?android:attr/textAppearanceMedium" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/editTextipBillVenAcc" 
+	      android:layout_alignRight="@+id/text_productid" 
+	      android:layout_marginTop="16dp"
+	      android:layout_marginLeft="16dp"></TextView>
+	<EditText
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/editTextipAvailBillQuantity" 
+	      android:inputType="number" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_billAvailQuantity" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/editTextipBillVenAcc" 
+	      android:layout_alignLeft="@+id/text_billAvailQuantity" android:enabled="false"></EditText>
+	 <TextView 
+	      android:id="@+id/text_billQuantity" 
+	      android:text="@string/text_quantity" 
+	      android:layout_width="wrap_content" 
+	      android:textAppearance="?android:attr/textAppearanceMedium" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/editTextipAvailBillQuantity" 
+	      android:layout_alignRight="@+id/text_productid" 
+	      android:layout_marginTop="16dp"
+	      android:layout_marginLeft="16dp"></TextView>
+	<EditText
+	      android:layout_width="wrap_content" 
+	      android:id="@+id/editTextipBillQuantity" 
+	      android:inputType="number" 
+	      android:layout_height="wrap_content" 
+	      android:layout_below="@+id/text_billQuantity" 
+	      android:layout_marginTop="16dp" 
+	      android:layout_alignRight="@+id/editTextipBillVenAcc" 
+	      android:layout_alignLeft="@+id/text_billAvailQuantity"></EditText>
+	<Button android:layout_height="wrap_content"
+		  android:layout_width="wrap_content"
+		  android:id="@+id/billCancel" 
+		  android:text="@string/text_cancel" 
+		  android:layout_below="@+id/editTextipBillQuantity"
+		  android:layout_toRightOf="@+id/text_billprice"
+		  android:layout_marginLeft="25dp"
+		  android:layout_marginTop="23dp"></Button>
+	<Button android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/billBuy" 
+			android:text="BUY" 
+			android:layout_alignBaseline="@+id/billCancel" 
+			android:layout_alignBottom="@+id/billCancel" 
+			android:layout_alignRight="@+id/text_billproductid"
+			android:onClick="check"></Button>
+	
+</RelativeLayout>
+</ScrollView>

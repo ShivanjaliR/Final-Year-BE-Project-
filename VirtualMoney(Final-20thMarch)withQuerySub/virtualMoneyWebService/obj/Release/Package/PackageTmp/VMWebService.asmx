@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="VMWebService.asmx.cs" Class="VirtualMoneySystem.VMWebService" %>
